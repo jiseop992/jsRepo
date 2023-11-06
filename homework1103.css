@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: grid;
+    gap: 10px;
+}
+#side-bar {
+    display: inline;
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    width: fit-content;
+    border: 1px solid lightgray ;
+    border-radius: 10px;
+}
+
+#logout {
+    position: fixed;
+    bottom: 10px;
+    width: 100px;
+    margin-left: 15px;
+}
+
+#logout>h3 {
+    padding-left: 30px;
+}
+img {
+    width: 20px;
+}
+
+h3 {
+    margin-top: 0%   ;
+    padding-left: 10px;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+ul {
+    margin-top: 8px;
+    padding-right: 10px;
+}
+body {
+    background-color: whitesmoke;
+}
+
+/* 공지사항 */
+.top-notice {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: fit-content;
+    margin: 10px auto;
+    overflow-x: hidden;
+}
+
+.notice-slide {
+    display: flex;
+    transition: .3s ease-out;
+    height: 100%;
+}
+.inner>h3 {
+    text-align: center;
+}
+
+.inner {
+    padding: 0 0 0 0px;
+}
+  
+.arrow {
+    text-align: center;
+}
+
+.center-main {
+    display: flex;
+    justify-content: center
+}
+
+.request-laundry {
+    background-color: white;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    width: 30%;
+    height: 210px;
+    border-radius: 3px;
+}
+.request-laundry>h3 {
+    padding-left: 220px;
+    padding-top: 30px;
+}
+.request-laundry>ul {
+    margin-top: 20px;
+    margin-left: 220px;
+}
+#laundryimg {
+    width: 200px;
+    height: 200px;
+}
+
+.center-side {
+    margin-top: 30px;
+    width: 30%;
+    height: 210px;
+    margin-left: 120px;
+}
+
+.price-table>img {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 80px;
+}
+
+.price-table{
+    width: 100%;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.price-table>h3 {
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.price-table>ul{
+    margin-left: 130px;
+}
+
+.guide {
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+.guide>img {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 80px;
+}
+
+.guide>h3 {
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.guide>ul {
+    margin-left: 130px;
+}
+
+.imgbox {
+    display: flex;
+    width: 100%;
+}
+.img1 {
+    border: 5px solid lightgray;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 180px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#img1 {
+    width: fit-content;
+}
+
+#img2 {
+    width: 500px;
+}
+.img2 {
+    border: 5px solid lightgray;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 130px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
